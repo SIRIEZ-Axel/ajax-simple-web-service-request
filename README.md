@@ -1,3 +1,3 @@
 # ajax-simple-web-service-request
 
-*first repo using ajax
+*first repo using ajax*
