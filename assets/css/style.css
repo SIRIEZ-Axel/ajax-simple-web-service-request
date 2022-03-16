@@ -13,11 +13,56 @@ body h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: blueviolet;
-  color: white;
+  background-color: #f0f09b;
+  color: black;
   font-size: 50px;
   margin: 0;
   padding: 10px 0;
+}
+
+body .quotes-container .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .quotes-container .block .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 35px 0;
+  width: 800px;
+}
+
+body .quotes-container .output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+}
+
+body .quotes-container .output img {
+  height: 200px;
+  border: none;
+  border-radius: 100%;
+}
+
+body .quotes-container .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .quotes-container .btn-container {
@@ -27,17 +72,18 @@ body .quotes-container .btn-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 50px 0;
 }
 
 body .quotes-container .btn-container .run {
   font-size: 15px;
   padding: 15px;
-  color: white;
-  background-color: blueviolet;
+  color: black;
+  background-color: #f0f09b;
   border: none;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 3px black;
-          box-shadow: 0 0 3px black;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -47,5 +93,11 @@ body .quotes-container .btn-container .run {
 body .quotes-container .btn-container .run:active {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
+}
+
+body .bar {
+  border-bottom: solid 3px rgba(240, 240, 155, 0.5);
+  width: 75%;
+  margin-left: 12.5%;
 }
 /*# sourceMappingURL=style.css.map */
