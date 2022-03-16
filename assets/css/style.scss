@@ -23,6 +23,11 @@ body{
                 justify-content: center;
                 margin: 35px 0;
                 width: 800px;
+                font: {
+                    style : italic;
+                    size: 23px;
+                }
+
             }
         }
         .output{
@@ -39,6 +44,8 @@ body{
         .auth{
             display: flex;
             justify-content: center;
+
+            font-style: oblique;
         }
         .btn-container{
             display: flex;
@@ -62,7 +69,7 @@ body{
         }
     }
     .bar{
-        border-bottom: solid 3px rgba($color: rgb(240, 240, 155), $alpha: 0.5);
+        border-bottom: solid 3px rgba($color: rgb(240, 240, 155), $alpha: 0.8);
         width: 75%;
         margin-left: 12.5%;
     }

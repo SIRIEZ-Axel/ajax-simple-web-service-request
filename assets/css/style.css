@@ -38,6 +38,8 @@ body .quotes-container .block .quote {
           justify-content: center;
   margin: 35px 0;
   width: 800px;
+  font-style: italic;
+  font-size: 23px;
 }
 
 body .quotes-container .output {
@@ -63,6 +65,7 @@ body .quotes-container .auth {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-style: oblique;
 }
 
 body .quotes-container .btn-container {
@@ -96,7 +99,7 @@ body .quotes-container .btn-container .run:active {
 }
 
 body .bar {
-  border-bottom: solid 3px rgba(240, 240, 155, 0.5);
+  border-bottom: solid 3px rgba(240, 240, 155, 0.8);
   width: 75%;
   margin-left: 12.5%;
 }
